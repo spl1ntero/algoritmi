@@ -1,3 +1,5 @@
+import time
+
 def heapify_min(arr, n, i):
     smallest = i 
     left = 2 * i + 1 
